@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Nunito:ital,wght@0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+  </head>
+
+<body style="background: url({% static 'mainbg.jpg' %}); background-repeat: no-repeat;
+background-size: 1280px 720px" >
+
+    <div style="margin-left: 38%; margin-top: 10%;">
+        <img src={% static 'logo.png'%} width='240px' height='120px' style="margin-left: 4%">
+        <h1 style="font-size:400%; font-family: Fredoka "> Kiwipedia </h1>
+    </div>
+   {% comment %} <form action="search" method="get">
+    <div class="input-group" style="margin-left: 40%">
+        <div class="form-outline" >
+          <input type="text" class="form-control" name="q">
+        </div>
+        <button type="submit" class="btn btn-primary">
+          <i class="fas fa-search"></i> 
+      </div>
+    </form>   {% endcomment %}
+    </div> 
+    <br>
+    <div style="margin-left: 29%">
+    <a class="btn btn-primary" href="http://127.0.0.1:8000/cat"> Cat </a>
+    <a class="btn btn-primary" href="http://127.0.0.1:8000/harrypotter"> Harry Potter </a>
+    <a class="btn btn-primary" href="http://127.0.0.1:8000/physics"> Physics </a>
+    <a class="btn btn-primary" href="http://127.0.0.1:8000/fortnite"> Fortnite </a>
+    <a class="btn btn-primary" href="http://127.0.0.1:8000/programming"> Programming </a>
+    
+    
+    <a class="btn btn-primary" href="http://127.0.0.1:8000/crypto"> Crypto </a> 
+  </div> 
+  </div>
+  </body>
+</html>
