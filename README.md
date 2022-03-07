@@ -9,6 +9,11 @@ The user will be guided to the homepage of our website where he/she will be able
 
 We are using Reddit API for getting the memes from required subreddits, News API for latest news and WikiData API for the short description of topic.
 
-The following project has been made by Aakarsh Jain and Abhay Chawdhary.
+The following project has been made by Aakarsh Jain and Abhay Chowdhry.
+
+
+To use the program, go to the inner directory and run the server using "python manage.py runserver"
+
+Follow the link to go the website
 
 
